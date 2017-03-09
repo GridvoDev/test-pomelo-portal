@@ -1,0 +1,12 @@
+{
+  "appenders": [
+    {
+      "type": "console",
+      "category": "console-log"
+    }
+  ],
+  "levels": {
+    "console-log": "DEBUG"
+  },
+  "replaceConsole": false
+}

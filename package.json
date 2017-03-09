@@ -1,0 +1,18 @@
+{
+  "name": "test-pomelo-portal",
+  "version": "0.0.1",
+  "author": {
+    "name": "linmadan",
+    "email": "772181827@qq.com"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --recursive"
+  },
+  "dependencies": {
+    "co": "^4.6.0",
+    "gridvo-common-js": "0.0.19",
+    "gridvo-microprogram-connector": "0.0.1",
+    "pomelo": "^2.2.5",
+    "underscore": "^1.8.3"
+  }
+}
