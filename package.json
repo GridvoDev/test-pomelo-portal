@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "co": "^4.6.0",
+    "kafka-node": "^1.5.0",
     "gridvo-common-js": "0.0.19",
     "gridvo-microprogram-connector": "0.0.1",
     "pomelo": "^2.2.5",
+    "pomelo-globalchannel-plugin": "0.0.7",
     "underscore": "^1.8.3"
   }
 }

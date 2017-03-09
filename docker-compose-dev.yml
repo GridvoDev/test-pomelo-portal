@@ -16,13 +16,14 @@ services:
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-  smartgrid-wechat-portal:
+  test-pomelo-portal:
     build: .
-    image: gridvo/smartgrid-wechat-portal:dev
-    container_name: smartgrid-wechat-portal
+    image: gridvo/test-pomelo-portal:dev
+    container_name: test-pomelo-portal
     ports:
-      - "127.0.0.1:3150:3150"
-      - "127.0.0.1:3011:3011"
+      - "3150:3150"
+      - "3011:3011"
+      - "3012:3012"
     depends_on:
      - zookeeper
      - kafka

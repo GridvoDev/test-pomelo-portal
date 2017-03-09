@@ -8,7 +8,9 @@
         "clientHost": "127.0.0.1",
         "clientPort": 3011,
         "frontend": true
-      },
+      }
+    ],
+    "dataSourceConnector": [
       {
         "id": "dataSourceConnector",
         "host": "127.0.0.1",
@@ -28,7 +30,9 @@
         "clientHost": "127.0.0.1",
         "clientPort": 3011,
         "frontend": true
-      },
+      }
+    ],
+    "dataSourceConnector": [
       {
         "id": "dataSourceConnector",
         "host": "127.0.0.1",
