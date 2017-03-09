@@ -22,21 +22,21 @@
     ]
   },
   "production": {
-    "connector": [
-      {
-        "id": "connector",
-        "host": "127.0.0.1",
-        "port": 3150,
-        "clientHost": "127.0.0.1",
-        "clientPort": 3011,
-        "frontend": true
-      }
-    ],
     "dataSourceConnector": [
       {
         "id": "dataSourceConnector",
         "host": "127.0.0.1",
         "port": 3151,
+        "clientHost": "127.0.0.1",
+        "clientPort": 3011,
+        "frontend": true
+      }
+    ],
+    "connector": [
+      {
+        "id": "connector",
+        "host": "127.0.0.1",
+        "port": 3150,
         "clientHost": "127.0.0.1",
         "clientPort": 3012,
         "frontend": true
