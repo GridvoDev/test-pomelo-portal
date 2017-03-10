@@ -21,10 +21,10 @@ services:
     image: gridvo/test-pomelo-portal:dev
     container_name: test-pomelo-portal
     ports:
-      - "127.0.0.1:3150:3150"
-      - "127.0.0.1:3151:3151"
-      - "127.0.0.1:3011:3011"
-      - "127.0.0.1:3012:3012"
+      - "3150:3150"
+      - "3151:3151"
+      - "3011:3011"
+      - "3012:3012"
     depends_on:
      - zookeeper
      - kafka
